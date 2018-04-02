@@ -4,6 +4,8 @@
 
 [![Dependencies](http://img.shields.io/david/codearoni/omg-like-literally.svg?branch=master)](https://david-dm.org/codearoni/omg-like-literally)
 [![Build Status](https://travis-ci.org/codearoniomg-like-literally.svg?branch=master)](https://travis-ci.org/codearoni/omg-like-literally)
+[![Build status](https://ci.appveyor.com/api/projects/status/lv9br48iq6gw8915?svg=true)](https://ci.appveyor.com/project/codearoni/omg-like-literally)
+[![Coverage Status](https://coveralls.io/repos/github/codearoni/omg-like-literally/badge.svg?branch=master)](https://coveralls.io/github/codearoni/omg-like-literally?branch=master)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
@@ -24,7 +26,6 @@ Throws an Error. You can optionally pass a message, but it contains a default.
 
 ```javascript
     const yourFunction (bod) {
-
         if (!bod) {
             omgLikeLiterally.barfMeOut('missing bod');
         }
@@ -52,16 +53,10 @@ Returns a random number. Guaranteed to be even.
 Functionally equivalent to barf me out, with a different error message.
 
 ```javascript
-    const yourFunction (cb) {
-
-        yourOperation(function (err) {
-
-            if (err) {
-                return cb(omgLikeLiterally.gagMeWithASpoon(err.message)); 
-            }
-
-            return cb(null);
-        });
+    const yourFunction (bod) {
+        if (!bod) {
+            omgLikeLiterally.gagMeWithASpoon('missing bod');
+        }
     };
 ```
 
