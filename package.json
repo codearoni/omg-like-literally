@@ -16,6 +16,10 @@
     "like",
     "literally"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codearoni/omg-like-literally.git"
+  },
   "author": "codearoni",
   "license": "MIT",
   "devDependencies": {
