@@ -11,13 +11,13 @@
 ## Installation
 
 ```bash
-    npm install omg-like-literally
+npm install omg-like-literally
 ```
 
 ## Usage
 
 ```javascript
-    const omgLikeLiterally = require('omg-like-literally');
+const omgLikeLiterally = require('omg-like-literally');
 ```
 
 #### barf me out!
@@ -25,11 +25,11 @@
 Throws an Error. You can optionally pass a message, but it contains a default.
 
 ```javascript
-    const yourFunction (bod) {
-        if (!bod) {
-            omgLikeLiterally.barfMeOut('missing bod');
-        }
-    };
+const yourFunction (bod) {
+    if (!bod) {
+        omgLikeLiterally.barfMeOut('missing bod');
+    }
+};
 ```
 
 #### can't even!
@@ -37,7 +37,15 @@ Throws an Error. You can optionally pass a message, but it contains a default.
 Returns a random number. Guaranteed to be odd.
 
 ```javascript
-    const oddNumber = omgLikeLiterally.cantEven();
+const oddNumber = omgLikeLiterally.cantEven();
+```
+
+#### dying!
+
+Exits the process with status code 1. Useful when your code is falling over like a hot mess and you're literally dying.
+
+```javascript
+omgLikeLiterally.dying();
 ```
 
 #### even!
@@ -45,7 +53,7 @@ Returns a random number. Guaranteed to be odd.
 Returns a random number. Guaranteed to be even.
 
 ```javascript
-    const evenNumber = omgLikeLiterally.even();
+const evenNumber = omgLikeLiterally.even();
 ```
 
 #### gag me with a spoon!
@@ -53,11 +61,11 @@ Returns a random number. Guaranteed to be even.
 Functionally equivalent to barf me out, with a different error message.
 
 ```javascript
-    const yourFunction (bod) {
-        if (!bod) {
-            omgLikeLiterally.gagMeWithASpoon('missing bod');
-        }
-    };
+const yourFunction (bod) {
+    if (!bod) {
+        omgLikeLiterally.gagMeWithASpoon('missing bod');
+    }
+};
 ```
 
 #### no duh!
@@ -65,9 +73,9 @@ Functionally equivalent to barf me out, with a different error message.
 Returns true.
 
 ```javascript
-    const fnReturnsTrue () {
-        return omgLikeLiterally.noDuh;
-    };
+const fnReturnsTrue () {
+    return omgLikeLiterally.noDuh;
+};
 ```
 
 #### psych!
@@ -75,9 +83,9 @@ Returns true.
 Returns false.
 
 ```javascript
-    const fnReturnsFalse () {
-        return omgLikeLiterally.psych;
-    };
+const fnReturnsFalse () {
+    return omgLikeLiterally.psych;
+};
 ```
 
 #### take a chill pill!
@@ -85,6 +93,6 @@ Returns false.
 Attempts to execute a given function and return its result. If an error is thrown, it returns the error instead.
 
 ```javascript
-    let returnValueOrError = omgLikeLiterally.takeAChillPill(yourVolatileOperation);
+let returnValueOrError = omgLikeLiterally.takeAChillPill(yourVolatileOperation);
 ```
 

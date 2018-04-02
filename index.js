@@ -8,6 +8,7 @@ const noDuh = require('./lib/noDuh');
 const barfMeOut = require('./lib/barfMeOut');
 const gagMeWithASpoon = require('./lib/gagMeWithASpoon');
 const takeAChillPill = require('./lib/takeAChillPill');
+const dying = require('./lib/dying');
 
 module.exports = {
     cantEven: cantEven,
@@ -16,5 +17,6 @@ module.exports = {
     gagMeWithASpoon: gagMeWithASpoon,
     psych: psych,
     noDuh: noDuh,
-    takeAChillPill: takeAChillPill
+    takeAChillPill: takeAChillPill,
+    dying: dying
 };
