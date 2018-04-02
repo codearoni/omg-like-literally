@@ -1,0 +1,27 @@
+{
+  "name": "omg-like-literally",
+  "version": "0.1.0",
+  "description": "omg like literally",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "keywords": [
+    "omg",
+    "like",
+    "literally"
+  ],
+  "author": "codearoni",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.5",
+    "mocha-lcov-reporter": "^1.3.0"
+  }
+}
