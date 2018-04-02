@@ -1,0 +1,13 @@
+langauge: node_js
+node_js:
+    - "9"
+    - "8"
+
+install:
+    - npm install
+
+script:
+    - npm run test
+
+after_script:
+    - "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"

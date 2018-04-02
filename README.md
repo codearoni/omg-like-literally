@@ -2,6 +2,9 @@
 
 > A powerful utility library that gives you the ability to express your code with the poise, intelligence, and brevity of a San Fernando Valley girl.
 
+[![Dependencies](http://img.shields.io/david/codearoni/omg-like-literally.svg?branch=master)](https://david-dm.org/codearoni/omg-like-literally)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Installation
 
 ```bash
@@ -86,7 +89,7 @@ Returns false.
     };
 ```
 
-#### take a chill pill
+#### take a chill pill!
 
 Attempts to execute a given function and return its result. If an error is thrown, it returns the error instead.
 
