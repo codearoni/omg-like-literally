@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.org/codearoni/omg-like-literally.svg?branch=master)](https://travis-ci.org/codearoni/omg-like-literally)
 [![Build status](https://ci.appveyor.com/api/projects/status/lv9br48iq6gw8915?svg=true)](https://ci.appveyor.com/project/codearoni/omg-like-literally)
 [![Coverage Status](https://coveralls.io/repos/github/codearoni/omg-like-literally/badge.svg?branch=master)](https://coveralls.io/github/codearoni/omg-like-literally?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cb68292f3623533c30e2/maintainability)](https://codeclimate.com/github/codearoni/omg-like-literally/maintainability)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
